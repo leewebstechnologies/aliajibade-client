@@ -13,7 +13,27 @@ const Post = () => {
           <span className="postCategory">Music</span>
           <span className="postCategory">Life</span>
         </div>
+        <span className="postTitle">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </span>
+        <hr />
+        <span className="postDtae">1 hour ago</span>
       </div>
+      <p className="postDesc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+        perspiciatis labore ipsam, harum quia ea ipsum facilis alias distinctio
+        quibusdam mollitia perferendis vel cumque quis dolore sint aliquid
+        aspernatur. Iste. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Commodi perspiciatis labore ipsam, harum quia ea ipsum facilis
+        alias distinctio quibusdam mollitia perferendis vel cumque quis dolore
+        sint aliquid aspernatur. Iste. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Commodi perspiciatis labore ipsam, harum quia ea ipsum
+        facilis alias distinctio quibusdam mollitia perferendis vel cumque quis
+        dolore sint aliquid aspernatur. Iste. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Commodi perspiciatis labore ipsam, harum
+        quia ea ipsum facilis alias distinctio quibusdam mollitia perferendis
+        vel cumque quis dolore sint aliquid aspernatur. Iste.
+      </p>
     </div>
   );
 };
