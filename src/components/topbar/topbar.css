@@ -10,7 +10,14 @@
   z-index: 999;
 }
 
-.topbarLeft, .topbarRight {
+@media screen and (max-width: 700px) {
+  .topbarListItem {
+    flex-direction: column;
+  }
+}
+
+.topbarLeft,
+.topbarRight {
   flex: 3;
   display: flex;
   align-items: center;
@@ -56,5 +63,3 @@
   cursor: pointer;
   margin-left: 15px;
 }
-
-

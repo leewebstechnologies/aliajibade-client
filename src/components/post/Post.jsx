@@ -10,8 +10,8 @@ const Post = () => {
       />
       <div className="postInfo">
         <div className="postCategories">
-          <span className="postCategory">Music</span>
-          <span className="postCategory">Life</span>
+          <span className="postCategory">Arabic</span>
+          <span className="postCategory">Islamic Monotheism</span>
         </div>
         <span className="postTitle">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.

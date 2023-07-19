@@ -17,12 +17,12 @@ const Sidebar = () => {
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
         <ul className="sidebarList">
-          <li className="sidebarListItem">Life</li>
-          <li className="sidebarListItem">Music</li>
-          <li className="sidebarListItem">Style</li>
-          <li className="sidebarListItem">Sport</li>
-          <li className="sidebarListItem">Technology</li>
-          <li className="sidebarListItem">Cinema</li>
+          <li className="sidebarListItem">Islamic Etiquette</li>
+          <li className="sidebarListItem">Islamic Monotheism</li>
+          <li className="sidebarListItem">Arabic</li>
+          <li className="sidebarListItem">Hadith</li>
+          <li className="sidebarListItem">Fiqh</li>
+          <li className="sidebarListItem">Seerah</li>
         </ul>
       </div>
       <div className="sidebarItem">
