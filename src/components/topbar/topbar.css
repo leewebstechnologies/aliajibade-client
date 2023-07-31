@@ -10,9 +10,9 @@
   z-index: 999;
 }
 
-@media screen and (max-width: 700px) {
-  .topbarListItem {
-    flex-direction: column;
+@media screen and (max-width: 480px) {
+  .topbar {
+    margin-left: 10px;
   }
 }
 
@@ -22,6 +22,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .topbarLeft {
+    display: none;
+    margin-left: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .topbarRight {
+    margin-right: 20px;
+  }
 }
 
 .topbarCenter {
@@ -55,6 +68,13 @@
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .topbarListItem {
+    font-size: 12px;
+    margin-right: 5px;
+  }
 }
 
 .topbarSearchIcon {
